@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> My Portfolio Website HTML CSS Javascript </title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#" class="logo"> Portfolio</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>My name is </h3>
+      <h1>Jalen Becerril</h1>
+      <h3>And I am a <span>Frontend Developer</span></h3>
+      <p>As a motivated Frontend developer, I am dedicated to continuously developing and honing my skills to excel in my career. My current focus is on acquiring new industry-specific skills and further refining my existing abilities.</p>
+      <div class="social-media">
+        <a href="https://github.com/jalenbecerril-jpg"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/jalen-becerril-90409423b/"><i class='bx bxl-linkedin'></i></a>
+      </div>
+      <a href="image/Jalen_Becerril_Resume.pdf" class="btn">My Resume</a>
+    </div>
+    <div class="home-img">
+      <img src="image/profile picture.avif" alt="">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="image/about.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>me</span></h2>
+      <h3>Frontend Developer</h3>
+      <p>I am a 21-year-old individual with three years of experience in learning coding. My strong determination to contribute to any team I join makes me a valuable asset. I possess leadership qualities, thrive in teamwork and always strive to enhance my skills as a student</p>
+    </div>
+  </section>
+
+  <Section class="skills" id="skills">
+    <h2 class="heading">My <span>skills</span></h2>
+
+    <div class="skill-content">
+      <div class="skill-box">
+        <i class='bx bxl-html5' ></i>
+        <h3>Html</h3>
+        <p></p>
+        <a href="image/Jalen_Becerril_Resume.pdf" class="btn">read more</a>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-css3' ></i>
+        <h3>Css</h3>
+        <p></p>
+        <a href="image/Jalen_Becerril_Resume.pdf" class="btn">read more</a>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-javascript' ></i>
+        <h3>Javascript</h3>
+        <p></p>
+        <a href="image/Jalen_Becerril_Resume.pdf" class="btn">read more</a>
+      </div>
+    </div>
+  </Section>
+
+  <section class="projects" id="projects">
+    <h2 class="heading">Latest <span>projects</span></h2>
+    <div class="project-container">
+      <div class="project-box">
+        <img src="image/china.jpg" alt="">
+        <div class="project-layer">
+          <h4> World forest Tours</h4>
+          <p>sample website with tours of famous forests</p>
+          <a href="http://127.0.0.1:5500/tour%20website/index.html"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="image/computor drawing.jpg" alt="">
+        <div class="project-layer">
+          <h4>Picture magic</h4>
+          <p>A randomized picture generator.</p>
+          <a href="http://127.0.0.1:5500/picture%20randomizer/index.html"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>me</span></h2>
+    <form action="jalenbecerril02@outlook.com" method="POST">
+      <div class="input-box">
+        <input type="text" placeholder="full name">
+        <input type="email" placeholder="email address">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="mobil number">
+        <input type="text" placeholder="email subject">
+      </div><textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+      <input type="submit" value="send message" class="btn">
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p> <a href="https://github.com/jalenbecerril-jpg"> Github </a></p>
+      <p> <a href="https://www.linkedin.com/in/jalen-becerril-90409423b/"> linkedin </a></p>
+      <p> <a href="image/Jalen_Becerril_Resume.pdf" > Resume </a></p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-circle' ></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
